@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // Set base URL to the root of your project
+    "paths": {
+      "@/*": ["src/*"] // Alias @ points to the 'src' directory
+    }
+  },
+  "include": ["src/**/*"], // Include all files under the 'src' folder
+  "exclude": ["node_modules"] // Exclude 'node_modules' folder
+}
+
